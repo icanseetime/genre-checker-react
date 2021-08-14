@@ -20,6 +20,7 @@
 }
 
 .ArtistGenres img {
+    border-radius: .8rem;
     width: 200px;
     height: 200px;
     object-fit: cover;

@@ -1,0 +1,16 @@
+/* Form */
+.SearchField {
+    width: 100%;
+    display: grid;
+    margin-bottom: 1rem;
+}
+
+.SearchField input {
+    color: black;
+}
+
+.SearchField button:focus,
+.SearchField button:hover {
+    background-color: hsl(254, 45%, 50%);
+    border-color: hsl(254, 45%, 40%);
+}

@@ -1,0 +1,30 @@
+.ArtistGenres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.ArtistGenres a {
+    color: #b4a0ff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.ArtistGenres a:hover {
+    text-decoration: underline;
+}
+
+.ArtistGenres h2 {
+    text-align: center;
+}
+
+.ArtistGenres img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ArtistGenres ul li {
+    font-size: 1.2em;
+}

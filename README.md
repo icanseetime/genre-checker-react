@@ -1,70 +1,147 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/icanseetime/genre-checker-react">
+    🎶
+  </a>
 
-### `yarn start`
+  <h3 align="center">Genre Checker || React version</h3>
+  <p align="center">
+    A website using the Spotify Web API to search for artists and then display their genres.
+    <br />
+    <a href="https://github.com/icanseetime/genre-checker-react"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://folk.ntnu.no/icanseetime/projects/genre-checker-react/">View Demo</a>
+    ·
+    <a href="https://github.com/icanseetime/genre-checker-react/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/icanseetime/genre-checker-react/issues">Request Feature</a>
+  </p>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#setup">Setup</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
 
-### `yarn test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Product Name Screen Shot](/images/screenshot.png)
 
-### `yarn build`
+The original "Genre Checker" project was created so that I could learn about APIs. This version is focused on learning how to do it while using the React framework. You are free to fork and reuse it as you please.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   [React](https://github.com/topics/react)
+-   [CSS](https://github.com/topics/css)
+    -   Skeleton (responsive CSS boilerplate)
+    -   Normalize.css (browser reset)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- GETTING STARTED -->
 
-### `yarn eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To get a local copy up and running follow these simple steps.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Navigate to a folder where you would like to store the repo
+2. Clone the repo
+    ```sh
+    git clone https://github.com/icanseetime/genre-checker-react.git
+    ```
+3. Install dev dependencies by running either either `npm install` or `yarn install` in the terminal
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Setup
 
-## Learn More
+1. Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/) and log in with your Spotify account.
+2. Create an app and note the client ID and client secret for the app
+3. Create a _.env_ file and add
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```
+    REACT_APP_CLIENT_ID=<Your Client ID from Spotify>
+    REACT_APP_CLIENT_SECRET=<Your Client Secret from Spotify>
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Start the project by entering `yarn start` or `npm run start` into the terminal.
+5. Go nuts.
 
-### Code Splitting
+<!-- USAGE EXAMPLES -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage
 
-### Analyzing the Bundle Size
+The site is pretty straightforward. You search for an artist name, and the site displays up to 20 of the more popular artists from the Spotify API. You can then click on the name or picture of one of these artists, and the site will display the artist along with their genres from Spotify. You can also then click the artist name, which will take you to the artist page on Spotify (web or app, depending on your own settings).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+_For more information, please contact me directly._
 
-### Making a Progressive Web App
+<!-- CONTRIBUTING -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+You are free to copy and use this as you please. If you find any bugs or issues, I would really appreciate it if you either [let me know](https://github.com/icanseetime/genre-checker-react/issues/new) or you fixed it and created a pull request 😀
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Deployment
+<!-- CONTACT -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contact
 
-### `yarn build` fails to minify
+Ida - imgjeits@stud.ntnu.no
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/icanseetime/genre-checker-react](https://github.com/icanseetime/genre-checker-react)
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+
+-   [Spotify Web API](https://developer.spotify.com/documentation/web-api/)
+-   [Normalize.css](https://necolas.github.io/normalize.css/)
+-   [Skeleton](http://getskeleton.com/)
+-   [othneildrew - Best README Template](https://github.com/othneildrew/Best-README-Template)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/icanseetime/genre-checker-react.svg?style=for-the-badge
+[contributors-url]: https://github.com/icanseetime/genre-checker-react/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/icanseetime/genre-checker-react.svg?style=for-the-badge
+[forks-url]: https://github.com/icanseetime/genre-checker-react/network/members
+[stars-shield]: https://img.shields.io/github/stars/icanseetime/genre-checker-react.svg?style=for-the-badge
+[stars-url]: https://github.com/icanseetime/genre-checker-react/stargazers
+[issues-shield]: https://img.shields.io/github/issues/icanseetime/genre-checker-react.svg?style=for-the-badge
+[issues-url]: https://github.com/icanseetime/genre-checker-react/issues

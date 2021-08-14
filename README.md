@@ -57,7 +57,7 @@
 
 ## About The Project
 
-![Product Name Screen Shot](/images/screenshot.png)
+![Product Name Screen Shot](./public/screenshot.png)
 
 The original "Genre Checker" project was created so that I could learn about APIs. This version is focused on learning how to do it while using the React framework. You are free to fork and reuse it as you please.
 

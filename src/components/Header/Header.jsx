@@ -1,4 +1,5 @@
 import React from 'react'
+import InfoButton from '../info/InfoButton/InfoButton'
 import './Header.css'
 
 export default function Header() {
@@ -11,6 +12,7 @@ export default function Header() {
 			>
 				🎶 Genre Checker
 			</h1>
+			<InfoButton iconColor="var(--text-color)" />
 		</header>
 	)
 }

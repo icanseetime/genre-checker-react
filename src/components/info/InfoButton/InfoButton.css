@@ -1,0 +1,11 @@
+.InfoButton {
+    padding: 5px;
+}
+
+.InfoButton #infoIcon {
+    cursor: pointer;
+}
+
+.InfoButton #infoIcon:hover {
+    filter: brightness(50%);
+}

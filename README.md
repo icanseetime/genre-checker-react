@@ -21,7 +21,7 @@
     <a href="https://github.com/icanseetime/genre-checker-react"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://folk.ntnu.no/icanseetime/projects/genre-checker-react/">View Demo</a>
+    <a href="https://genre-checker.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/icanseetime/genre-checker-react/issues">Report Bug</a>
     ·
@@ -59,7 +59,7 @@
 
 ![Product Name Screen Shot](./public/screenshot.png)
 
-The original "Genre Checker" project was created so that I could learn about APIs. This version is focused on learning how to do it while using the React framework. You are free to fork and reuse it as you please.
+[The original "Genre Checker" project](https://github.com/imgjeits/genre-checker) was created so that I could learn about APIs. This version is focused on learning how to do it while using the React framework. You are free to fork and reuse it as you please.
 
 ### Built With
 

@@ -48,7 +48,11 @@ export default function ArtistGenres() {
 					src={img ? img : '../no-image.png'}
 					alt={name ? name : 'Text says "No image available"'}
 				/>
-				<a href={`https://open.spotify.com/artist/${id}`}>
+				<a
+					href={`https://open.spotify.com/artist/${id}`}
+					target="_blank"
+					rel="noreferrer"
+				>
 					<h2>{name ? name : 'Artist name missing'}</h2>
 				</a>
 

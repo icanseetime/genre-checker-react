@@ -75,13 +75,7 @@ export default function InfoModal({ showModal, switchModalState }) {
 						coffee by clicking the button below. Have a nice day!
 					</p>
 
-					<div id="contact-footer">
-						<a
-							href="mailto:imrgdev@gmail.com"
-							aria-label="E-mail the developer"
-						>
-							<EmailIcon className="footer-icon" />
-						</a>
+					<div className="contact-footer">
 						<div
 							id="coffee-button"
 							role="button"
@@ -95,6 +89,15 @@ export default function InfoModal({ showModal, switchModalState }) {
 						>
 							<CoffeeLogo />
 						</div>
+					</div>
+
+					<div className="contact-footer">
+						<a
+							href="mailto:imrgdev@gmail.com"
+							aria-label="E-mail the developer"
+						>
+							<EmailIcon className="footer-icon" />
+						</a>
 						<a
 							href="https://github.com/icanseetime"
 							target="_blank"

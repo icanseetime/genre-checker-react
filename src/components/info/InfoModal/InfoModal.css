@@ -19,7 +19,8 @@
 .InfoModal #modal {
     max-width: 80vw;
     width: 750px;
-    min-height: 50vh;
+    max-height: 80vh;
+    overflow: scroll;
     background-color: hsla(186, 19%, 71%, 0.55);
     border-radius: .8rem;
     backdrop-filter: blur(4px);
@@ -29,6 +30,10 @@
     /* Animation */
     transform: scale(0, 0);
     animation: open .5s ease-out .1s 1 forwards;
+}
+
+.InfoModal #modal::-webkit-scrollbar {
+    display: none;
 }
 
 @keyframes open {
@@ -69,9 +74,10 @@
 }
 
 /* Footer w/ icons & buttons */
-#modal #contact-footer {
+#modal .contact-footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
     align-items: center;
     margin-top: 30px;
 }

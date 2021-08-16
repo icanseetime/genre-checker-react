@@ -6,3 +6,10 @@
 .Header h1 {
     cursor: pointer;
 }
+
+@media screen and (max-width: 550px) {
+
+    .Header h1 {
+        font-size: 3rem;
+    }
+}

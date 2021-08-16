@@ -9,7 +9,6 @@ export default function ArtistLink({ id, name, img }) {
 			<img
 				src={img || './no-image.png'}
 				alt={img ? name : 'Artist image missing, blank image'}
-				// key={id}
 			/>
 		</Link>
 	)

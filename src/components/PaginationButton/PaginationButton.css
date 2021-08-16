@@ -1,0 +1,11 @@
+.PaginationButton.button-primary:focus,
+.PaginationButton.button-primary:hover {
+    background-color: hsl(254, 45%, 50%);
+    border-color: hsl(254, 45%, 40%);
+}
+
+.PaginationButton:disabled {
+    color: #333;
+    border-color: #888;
+    outline: 0;
+}

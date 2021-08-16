@@ -1,0 +1,11 @@
+/* Pagination buttons */
+#pagination {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+
+#pagination * {
+    width: 49%;
+}

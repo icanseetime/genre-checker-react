@@ -46,9 +46,9 @@ export default function InfoModal({ showModal, switchModalState }) {
 					<h2>Information</h2>
 					<p>
 						Ever wonder what genres your favorite artists were
-						playing? This site is a way to look it up. Type in the
-						name of an artist in the search field and click the
-						matching one to have a look.
+						playing? This site is a way to look it up. Search for an
+						artist by using the search field and click their picture
+						to have a look.
 					</p>
 					<p>
 						To learn more about the project, visit{' '}

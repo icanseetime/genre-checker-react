@@ -1,6 +1,6 @@
 {
-  "short_name": "Genre checker",
-  "name": "Genre checker",
+  "short_name": "Genre Checker",
+  "name": "Genre Checker",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#735bc1",

@@ -6,7 +6,7 @@ export default function SearchField({ onSubmit }) {
 		<form className="SearchField" onSubmit={onSubmit}>
 			<label htmlFor="searchField">Search for an artist</label>
 			<input
-				type="text"
+				type="search"
 				id="searchField"
 				name="searchField"
 				className="u-full-width"

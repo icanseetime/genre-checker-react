@@ -55,6 +55,7 @@ export default function Main() {
 			e.preventDefault()
 			history.push('/')
 			setArtists([])
+			setNum(0)
 			const searchTerm = e.target.searchField.value
 			if (searchTerm) {
 				document.title = `"${searchTerm}" - Genre Checker`

@@ -22,6 +22,7 @@ export default function ArtistGenres() {
 		})
 			.then((res) => res.json())
 			.then((artist) => {
+				// Set data
 				if (artist.images) {
 					if (artist.images[0]) setImg(artist.images[0].url)
 				}
@@ -33,6 +34,11 @@ export default function ArtistGenres() {
 				if (artist.genres) {
 					setGenres(artist.genres)
 				}
+
+				// Set document title
+				document.title = `${artist.name} - Genre Checker`
+
+				// Set loading status
 				setLoading(false)
 			})
 			.catch((err) => {

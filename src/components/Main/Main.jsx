@@ -57,6 +57,7 @@ export default function Main() {
 			setArtists([])
 			const searchTerm = e.target.searchField.value
 			if (searchTerm) {
+				document.title = `"${searchTerm}" - Genre Checker`
 				getArtists(searchTerm)
 				setError('')
 			} else {

@@ -5,6 +5,11 @@
 
 .Header h1 {
     cursor: pointer;
+    color: var(--text-color);
+}
+
+.Header h1:hover {
+    color: var(--darker-text);
 }
 
 @media screen and (max-width: 550px) {

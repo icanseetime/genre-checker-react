@@ -121,7 +121,7 @@ You are free to copy and use this as you please. If you find any bugs or issues,
 
 ## Contact
 
-Ida - imgjeits@stud.ntnu.no
+Isak - imgjeits@stud.ntnu.no
 
 Project Link: [https://github.com/icanseetime/genre-checker-react](https://github.com/icanseetime/genre-checker-react)
 
